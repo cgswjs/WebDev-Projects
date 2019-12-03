@@ -1,0 +1,18 @@
+body{/*select an element by typing its name*/
+
+	background: orange;
+}
+
+li{
+	border: 2px solid red;
+}
+
+#special{/*use # to specify id*/ 
+	background:yellow;
+	border: 2px solid black;
+}
+
+.completed{/*use .name to specify a class*/
+	text-decoration: line-through;
+}
+
