@@ -1,0 +1,29 @@
+/*div{
+	width:100px;
+/*	float: left;/*controls the layout of divs*/
+/*}*/
+
+/*#one{
+	background-color:red;
+}
+
+#two{
+	background-color:purple;
+}*/
+
+img{
+	width:30%;
+	float:left;
+	margin:1.66%;
+}
+p{
+	font-family: "raleway", sans-serif;
+	margin-left:1.66%;
+	font-size:26px;
+	font-weight:700;
+	text-transform: uppercase;
+	border-bottom:#f1f1f1 solid 2px;
+	width:30%;
+	padding-bottom:1%;
+
+}
