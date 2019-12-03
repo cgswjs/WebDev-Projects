@@ -1,0 +1,35 @@
+h1 {
+	color: #FF0000;/*use hexdecimal to represent a color*/
+
+	/*set a border for h1 header*/
+	border-color: purple;
+	border-width: 1px;
+	border-style: solid;
+	
+	/*Another representation of border with same effect*/
+	border:2px solid purple;
+}
+
+h2 {
+	color: rgb(68,200,100);/*use RGB to represent a color*/
+}
+
+h3{
+	color:rgba(120,180,80,0.8);/*the 4th digit represents transparency from 0 to 1*/
+}
+
+/*background*/
+h3{
+	background: rgb(255,100,80);
+}
+body{
+	background: pink;/*change background to a color*/
+
+	/*change background to a pickture*/
+	background: url(https://cdn.images.express.co.uk/img/dynamic/143/590x/MHW-BETA-1173664.jpg?r=1567578103924);
+	background-repeat: no-repeat;/*no-repeat stops the picture to be tiled over the page*/
+	background-size: cover;/*cover stretches the picture and cover the full page*/
+}
+
+
+
