@@ -1,0 +1,55 @@
+/*Element*/
+li{
+
+
+}
+
+/*class*/
+.hellow{
+
+
+}
+
+/*id*/
+#name{
+
+}
+
+/*star select every element on the page*/
+*{
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector picks a under li*/
+
+li a {
+	color:red;
+
+}
+
+/*Adjacent Selector picks ul right after h4*/
+
+h4 + ul{
+	border:4px solid red;
+}
+
+/*Attribute Selector picks certain attributes that satisfy the criteria*/
+
+a[href="http://www.google.com"]{
+	background:blue;
+}
+
+input[type="checkbox"]{
+	background:blue;
+}
+
+/*nth of type picks every nth element*/
+ul:nth-of-type(3){/*this makes the 3rd ul purple*/
+	background:purple;
+}
+li:nth-of-type(3){
+	background:green;
+}
+li:nth-of-type(even){
+	background: brown;
+}
