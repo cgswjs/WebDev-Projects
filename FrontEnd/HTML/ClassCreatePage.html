@@ -1,0 +1,124 @@
+<!DOCTYPE html><!-- indicate that using html5 -->
+<html><!-- #start of html  with one head and one body -->
+<head>
+<!-- #metadata goes into head -->
+	<meta charset="utf-8">
+	<title>My First Page<!-- give the website a title for search --></title>
+</head>
+<body>
+<!-- #all content go into body -->
+<h1>This is my first tag!!!</h1><!-- h1, h2 and h3 are different sized headings, the smallest size is h6 -->
+<h2>This is another heading</h2>
+<h3>This is another heading!!!</h3>
+<div><!-- div gives a generic container for adding features later using CSS -->
+	<p><strong>This is a test website</strong> to test <em>HTML tags</em> and <span><!-- span is a in-line container for feature adding using CSS -->this is a span section.</span> 
+	After span section there will be normal text. This entire paragraph is under a div section that can be modified later using CSS.</p>
+</div>
+
+<div>
+	<p>此网页仅为测试使用。<strong>此处为加粗处理</strong>。<em>此处为斜体处理</em>。<span>此处为span区域。</span>此段均处于div区间并可用CSS语言进行后续处理。</p>
+</div>
+
+<p>以下为有序排列列表</p>
+<ol><!-- Ordered list -->
+	<li><strong>Red</strong></li>
+	<li>Orange</li>
+	<li>Blue
+		<ul><li>Sunflower</li>
+			<li>Banana</li>
+		</ul>
+	</li>
+</ol>
+
+<p>以下为无序排列列表</p>
+<ul><!-- Unorderd List -->
+	<li>Dog</li>
+	<li>Cat</li>
+	<li>Snake</li>
+</ul>
+<img src="https://www.pcgamesn.com/wp-content/uploads/2019/07/monster-hunter-world-iceborne-mhw-tigrex-900x506.jpg">
+<p><a href="https://monsterhunterworld.wiki.fextralife.com/Monster+Hunter+World+Wiki">MHW WIKI</a><!-- a is a link tag and https takes it to external page --></p>
+<p><a href="page2.html">Go to Page 2</a><!-- internal link --></p>
+
+<table border="1">
+	<thead>
+	<tr><!-- table row -->
+		<th>Apperance</th>
+		<th>Name</th><!-- th for table headers -->
+		<th>Age</th>
+		<th>rage</th>
+		<th>Evolv To</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+		<td>Sam</td><!-- td is for information in each cell -->
+		<td>20</td>
+		<td>Latina</td>
+		<td><a href="http://pokemon.wikia.com/wiki/Ivysaur ">Sam Evolved</a></td>
+	</tr>
+	<tr>
+		<td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+		<td>Dean</td>
+		<td>25</td>
+		<td>Asian</td>
+		<td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Dean Evolved</a></td>
+	</tr>
+	</tbody>
+</table>
+
+<!-- User Inputs and Labeling -->
+<h1>Gmail Log In</h1>
+<form action="https://mail.google.com/" method="GET"><!-- action-where the form send data to --><!-- method-what HTTP method(get/post) -->
+	<label>username:<input name="username" type="text" placeholder="User ID"><!-- name attributes are showing in the website address bar --></label>
+	<label>password:<input name="password" type="password" placeholder="Password"></label>
+	<input type="submit">
+</form>
+
+
+<!-- another way to label inputs-->
+<h1>Gmail Log In</h1>
+<form action="https://mail.google.com/" method="GET"><!-- action-where the form send data to --><!-- method-what HTTP method(get/post) -->
+	<label for="username">username:</label>
+	<input id="username" name="username" type="text" placeholder="username" required><!-- name attributes are showing in the website address bar -->
+	<label for="password">password:</label>
+	<input id="password" name="password" type="password" placeholder="Password" required><!-- required asks user to fill the input box -->
+	<button>Login</button>
+</form>
+
+<!-- form validator asks for specific data type -->
+<h1>Gmail Log In</h1>
+<form action="https://mail.google.com/" method="GET"><!-- action-where the form send data to --><!-- method-what HTTP method(get/post) -->
+	<label for="username">username:</label>
+	<input id="username" name="username" type="email" placeholder="Email" required><!-- type email asks users to put in email data type -->
+	<label for="password">password:</label>
+	<input id="password" name="password" type="password" placeholder="Password" required><!-- required asks user to fill the input box -->
+	<button>Login</button>
+</form>
+
+<p>Do you prefer Cats or Dogs?</p>
+<form>
+<label for="MHXX">Monster Hunter XX</label>
+<input id="MHXX" type="radio" name="Gamechoice" value="MHXX">
+<label for="MHW">Monster Hunter World</label>
+<input id="MHW" type="radio" name="Gamechoice" value="MHW"><!-- by giving these inputs the same name it connets them and user can only pick one -->
+
+<!-- SELECT METHOD -->
+<p>What's your faviourite weapon</p>
+<select name='Weapon'> 
+	<option value="GL">Gunlance</option>
+	<option value="KS">Katana Sword</option>
+	<option va;ie="Bow">Bow</option><!-- value passes to the address bar by name -->
+</select>
+
+<!-- TEXT AREA -->
+<p>User Comments</p>
+<textarea name="Comment" row="10" cols="50"></textarea><!-- row and cols controls the size of text block -->
+<p><button>Submit</button></p>
+</form>
+
+</body>
+</html>
+
+
