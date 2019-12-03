@@ -1,0 +1,75 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family:'Lato';
+
+}
+.square{
+	width: 30%;
+	background:purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+	/*make curly border out of squares*/
+	border-radius: 15%;
+	/*make square background fade away in 0.5seconds*/
+	transition:background 0.5s;
+	/*make transition compatible to other browsers*/
+	-webkit-transition:background 0.3s;
+	-moz-transition:background 0.3s;
+}
+
+#container1{
+	max-width: 50%;
+	margin: 20px auto;
+}
+#displayColor{
+	font-size: 200%;
+}
+h1{
+	text-align: center;
+	line-height: 1.1;
+	color:white;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	padding:20px 0;
+	text-transform: uppercase;
+}
+#stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected{
+	background-color: blue;
+	color:white;
+	background-color: steelblue;
+	
+}
+button{
+	border:none;
+	background:none;
+	text-transform:uppercase;
+	height:100%;
+	color: steelblue;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	/*make the color change smooth to all property and takes 2seconds*/
+	transition:all 0.3s;
+	/*remove border when click*/
+	outline: none;
+}
+button:hover{
+	color:white;
+	background-color: steelblue;
+}
+#message{
+	/*set message display to inline block*/
+	display: inline-block;
+	/*give this inline block a width*/
+	width: 20%;
+	line-height: 100%;
+}
